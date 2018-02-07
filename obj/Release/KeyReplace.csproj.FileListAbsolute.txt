@@ -1,0 +1,15 @@
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\bin\Release\KeyReplace.exe.config
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\bin\x64\Release\KeyReplace.exe.config
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\bin\x64\Release\KeyReplace.exe
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\bin\x64\Release\KeyReplace.pdb
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.csprojResolveAssemblyReference.cache
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.frmAddMacro.resources
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.frmEnterText.resources
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.frmMain.resources
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.frmNewKey.resources
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.frmOptions.resources
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.WinSelect.resources
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.Properties.Resources.resources
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.csproj.GenerateResource.Cache
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.exe
+C:\Users\CHAOSTER\Desktop\code is rare in 2017\KeyReplace\KeyReplace\obj\Release\KeyReplace.pdb
