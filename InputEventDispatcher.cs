@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace KeyReplace
 {
-
     public class InputEventDispatcher 
     {
         static InputEventDispatcher()
