@@ -47,9 +47,11 @@ namespace KeyReplace
         /************************/
 
         [NonSerialized]
-        static string settingsfile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "KeyReplace") + "\\_settings";
+        static string homedir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "KeyReplace") + "\\";
         [NonSerialized]
-        static string execpath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\KeyReplace\KeyReplace.exe";
+        static string settingsfile = homedir + @"_settings";
+        [NonSerialized]
+        static string execpath = homedir + @"KeyReplace\KeyReplace.exe";
 
         /************************/
 
@@ -66,6 +68,8 @@ namespace KeyReplace
             }
             else
             {
+                if (!Directory.Exists(homedir))
+                    Directory.CreateDirectory(homedir);
                 FileStream fs = new FileStream(settingsfile, FileMode.Open);
                 try
                 {
@@ -103,6 +107,8 @@ namespace KeyReplace
         /************************/
         public static void SaveSettings()
         {
+            if (!Directory.Exists(homedir))
+                Directory.CreateDirectory(homedir);
             FileStream fs = new FileStream(settingsfile, FileMode.Create);
 
             // Construct a BinaryFormatter and use it to serialize the data to the stream.
@@ -141,7 +147,8 @@ namespace KeyReplace
             RegistryKey rk = Registry.CurrentUser.CreateSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Run");
             if (_opRunOnStartup)
             {
-                //if (!File.Exists(execpath))
+                if (!Directory.Exists(homedir))
+                    Directory.CreateDirectory(homedir);
                 selfcpy(execpath); //we do this to overwrite old version too
                 rk.SetValue(STARTUP_NAME, execpath + " /tray");
             }
